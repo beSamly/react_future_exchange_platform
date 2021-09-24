@@ -37,7 +37,7 @@ const App = () => {
             : process.env.REACT_APP_AUTH_SERVER_HOST_DEV;
     console.log(`NODE_ENV : `, process.env.NODE_ENV, process.env.REACT_APP_AUTH_SERVER_HOST);
 
-    if (!state.connected) return <div>Socket connecting...</div>;
+    if (!state.connected) return <div>Socket connecting....</div>;
 
     return (
         <BrowserRouter>
